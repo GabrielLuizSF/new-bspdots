@@ -3,9 +3,9 @@
 
 ##---------- Keybindings for bspwm ----------##
 
-# Terminal (alacritty)
+# Terminal
 super + Return
-	alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml	
+	gnome-terminal
 
 ##---------- Rofi Launcher & Menus ----------##
 
