@@ -14,7 +14,7 @@ $HOME/.config/bspwm/polybar/launch.sh
 feh --bg-fill ~/.config/bspwm/wallpaper/wall.png
 
 #compositor
-picom &
+compton &
 
 bspc monitor -d I II III IV V VI VII VIII
 
@@ -33,7 +33,5 @@ bspc config focus_follows_pointer true
 bspc rule -a Thunar state=floating follow=on focus=on
 bspc rule -a Viewnior state=floating follow=on focus=on
 
-bash $HOME/.fehbg
+${HOME}/.fehbg
 
-ksuperkey -e 'Super_L=Alt_L|F1' &
-ksuperkey -e 'Super_R=Alt_L|F1' &
